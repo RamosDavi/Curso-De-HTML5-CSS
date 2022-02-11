@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando links</title>
+    <style>
+        body{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        a{
+            color: yellow;
+        }
+        a:visited{
+            color: darkgoldenrod;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: red;
+        }
+        a::after{
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <li><a href="https://github.com/Davi8bits" target="_blank">repositorio GitHub</a></li>
+    <li><a href="https://www.youtube.com/" target="_blank">Canal do youtube</a></li>
+    <li><a href="https://www.cursoemvideo.com/cursos/" target="_blank">Site do Cursoem video</a></li>
+    
+</body>
+</html>

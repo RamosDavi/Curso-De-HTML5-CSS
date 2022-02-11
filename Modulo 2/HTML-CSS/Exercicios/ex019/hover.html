@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover no HTML</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        div > p{
+            display: none;
+        }
+        div:hover > p{
+            display: block;
+            color: rgb(250, 212, 154);
+            background-color: rgb(255, 219, 143);
+            width: 150px;      
+        }
+        
+        div:hover{
+            color: rgb(250, 150, 0);
+        }
+    
+    </style>
+</head>
+<body>
+    <h1></h1>
+    <p>Passe o mouse abaixo</p>
+    <div>
+        Passe o mouse aqui
+        <p><a href="pag02.html">Texto escondido</a></p>
+    </div>
+    <p>FIM DO EXEMPLO</p>
+    
+</body>
+</html>
